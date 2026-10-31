@@ -1,0 +1,75 @@
+/* Lecture 09: Project Tic Tac Teo Game */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #22333b;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: #ffff;
+  margin-top: 20px;
+}
+
+.container {
+  height: 70vmin;
+}
+
+.boxes {
+  margin-top: 50px;
+  height: 60vmin;
+  width: 60vmin;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.box {
+  margin: 1px;
+  height: 15vmin;
+  width: 15vmin;
+  background-color: #eae0d5;
+  border-radius: 1rem;
+  border: none;
+  font-size: 3rem;
+  color: brown;
+}
+
+.reset-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  width: 18vmin;
+  font-size: 1rem;
+  background-color: #0a0908;
+  color: #eae0d5;
+}
+
+.new-game-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  width: 18vmin;
+  font-size: 1rem;
+  background-color: #0a0908;
+  color: #eae0d5;
+  margin-top: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+.msg-container {
+  color: #eae0d5;
+  font-size: 1.55rem;
+  margin-top: 30px;
+}
